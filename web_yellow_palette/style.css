@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #F2C744;
+}
+
+
+.header{
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 10%;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: solid;
+    color: #404040;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: #404040;
+    font-weight: 400;
+    text-decoration: solid;
+    margin-left: 30px;
+}
+
+.navbar a:hover{
+    color: #f2f2f2;
+    transform: 0.3s;
+}
+
+.navbar button{
+    font-size: 20px;
+    color: #f2f2f2;
+    font-weight: 400;
+    margin-left: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #404040;
+    width: 100px;
+    height: 40px;
+}
+
+.navbar button:hover{
+    background-color: #f2f2f2;
+    color: #404040;
+    transform: 0.3s;
+
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 750px;
+}
+
+.home-content h1{
+    font-size: 60px;
+
+}
+
+
+.home-content p{
+    font-size: 20px;
+    
+}
